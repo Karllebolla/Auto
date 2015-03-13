@@ -63,6 +63,7 @@ Danach sollte in der Datei /opt/mjpg-streamer/start.sh die aktuelle Zeile auskom
 mjpg_streamer -i "/usr/local/lib/input_uvc.so -d /dev/video0 -n -y -r 640x480 -f 15" -o "/usr/local/lib/output_http.so -n -w /usr/local/www -p 8080"
 ```
   
+Der Stream wird über das script start.sh gestartet.  
 Nun kann auf dem Laptop der Stream über den Browser geladen werden.
 ```
 http://<IP des Raspberry>:8080
