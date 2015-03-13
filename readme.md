@@ -14,7 +14,8 @@ Folgende Hardware habe ich verwendet:
 - Motor für Beschleunigung: [70168 Double Gear Box 4-Speed] (http://www.amazon.de/gp/product/B001Q13BIU?psc=1&redirect=true&ref_=oh_aui_detailpage_o07_s00 "Motor für Beschleunigung")  
 - Treiber für Beschleunigungsmotor: [ DC-Motortreiber] (http://www.amazon.de/gp/product/B00GZJQ6EE?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00 "Motor Treiber")  
 - Kamera:  [Raspberry Pi NoIR Kamera-Modul](http://www.amazon.de/gp/product/B00BIZQWYE?psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00 "Raspberry Pi NoIR Kamera-Modul")  
-
+  
+  
 ## Installation der einzelnen Sensoren
 
 Kurze Anleitung um die einzelnen Sensoren lauffähig zu machen.  
@@ -31,6 +32,7 @@ git clone git://git.dragon.net/wiringPi
 cd wiringPi
 ./build
 ```
+  
   
 ### Kamera
 
